@@ -8,3 +8,4 @@ echo "Hi"
 
 #imageid=`docker images | awk -F " " '{print $3}'`
 #docker rmi -f $imageid
+
