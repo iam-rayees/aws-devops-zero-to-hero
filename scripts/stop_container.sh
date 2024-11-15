@@ -5,5 +5,5 @@ set -e
 containerid=`docker ps | awk -F " " '{print $1}'`
 docker rm -f $containerid 
 
-imageid=`docker images | awk -F '{print $3}'`
+imageid=`docker images | awk -F " " '{print $3}'`
 docker rmi -f $imageid
