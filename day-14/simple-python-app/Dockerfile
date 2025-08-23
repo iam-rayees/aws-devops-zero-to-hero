@@ -1,4 +1,4 @@
-# Base image of python
+# Base Python Image
 FROM python:3.8
 
 # Set the working directory inside the container
