@@ -1,4 +1,4 @@
-#WIPRO Base Python Image
+#WIPRO Base Python base image
 FROM python:3.8
 
 # Set the working directory inside the container
