@@ -1,10 +1,10 @@
 #!/bin/bash
-#set -e
+set -e
 
 # Stop the running container (if any)
-echo "Hi"
-#containerid=`docker ps | awk -F " " '{print $1}'`
-#docker rm -f $containerid 
+#echo "Hi"
+containerid=`docker ps | awk -F " " '{print $1}'`
+docker rm -f $containerid 
 
 #imageid=`docker images | awk -F " " '{print $3}'`
 #docker rmi -f $imageid
